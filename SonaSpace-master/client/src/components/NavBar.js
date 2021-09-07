@@ -25,10 +25,6 @@ export default function NavBar() {
                                 <div className="comp">
                                     <ReactBootStrap.Nav.Link href="#home" className="options"><h5>Home</h5></ReactBootStrap.Nav.Link>
                                     <ReactBootStrap.Nav.Link href="#companies" className="options" ><h5>Companies</h5></ReactBootStrap.Nav.Link>
-                                    
-
-                                    
-</Dropdown>
                                 
                                 </div  >
                                 <div className="notification">
