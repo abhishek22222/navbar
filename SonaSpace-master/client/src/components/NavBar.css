@@ -1,0 +1,192 @@
+
+    
+ @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap");
+ /*
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+  }
+
+  .main-nav {
+    width: 100%;
+    height: 10rem;
+    display: grid;
+    grid-template-columns: 10rem 1fr 2fr 1fr 10rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  }
+
+  /* .logo {
+    display: grid;
+    /* background-color: #3b5998; 
+    grid-column: 2/3;
+    justify-content: start;
+    align-items: center;
+  }
+  .menu-link {
+    grid-column: 3/4;
+  }
+
+  .menu-link ul {
+    height: 10rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .icons {
+    grid-column: 4/5;
+  }
+  .icons ul {
+    height: 10rem;
+    display: grid;
+    grid-template-columns: 3fr repeat(3, 1fr);
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .icons ul li {
+    text-align: right;
+  }
+  .icons ul li:first-child {
+    grid-column: 2/3;
+  }
+
+  .logo h2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(#eee, rgb(69, 57, 248));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .logo h2 span {
+    font-size: 3.5rem;
+  }
+
+  .menu-link ul li {
+    font-size: 1.8rem;
+  }
+  .menu-link ul li a {
+    text-transform: capitalize;
+    color: rgba(0, 0, 3, 0.8);
+    transition: 0.5s;
+  }
+  .menu-link ul li:hover > a {
+    transform-origin: left;
+    color: rgba(0, 0, 3, 1);
+    text-decoration: underline;
+    transition: 0.5s;
+  }
+  .icons ul li {
+    font-size: 1.8rem;
+  } */ 
+
+  .Header {
+    height:80px ;
+    width: 100%;
+    background-color: #265077;
+  }
+  h2{
+    color: white;
+  }
+  .comp{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  }
+  h5{
+    color: white;
+  }
+
+  .addQuestion{
+    display:inline-block;
+    padding:0.3em 1.2em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    background-color:#494B68;
+    text-align:center;
+    transition: all 0.2s;
+    }
+    .addQuestion:hover{
+    background-color:#4095c6;
+    }
+    .searchBar{
+      float: right;
+      padding: 6px;
+      border: none;
+      margin-top: 8px;
+      margin-right: 16px;
+      font-size: 17px;
+      width: 400px;
+    }
+    .notification{
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      margin-left: 15px;
+    }
+    .login{
+      font-size: 20px;
+    font-weight: 500;
+    }
+    .dropdown {
+      float: left;
+      overflow: hidden;
+    }
+    
+    /* Dropdown button */
+    .dropdown .dropbtn {
+      font-size: 16px;
+      border: none;
+      outline: none;
+      color: white;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit; /* Important for vertical align on mobile phones */
+      margin: 0; /* Important for vertical align on mobile phones */
+    }
+    
+    /* Add a red background color to navbar links on hover */
+    .navbar a:hover, .dropdown:hover .dropbtn {
+      background-color: red;
+    }
+    
+    /* Dropdown content (hidden by default) */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    /* Links inside the dropdown */
+    .dropdown-content a {
+      float: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+    
+    /* Add a grey background color to dropdown links on hover */
+    .dropdown-content a:hover {
+      background-color: #ddd;
+    }
+    
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+ 
